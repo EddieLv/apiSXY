@@ -174,7 +174,7 @@ create_chat_completion<- function(
     # Build path parameters
 
     task <- "chat/completions"
-    mine_url = "http://sxygptcloud.com:3000"
+    mine_url = "https://api.sxycloud.com"
     base_url <- glue::glue(paste0(mine_url, "/v1/{task}"))
     
     headers <- c(
